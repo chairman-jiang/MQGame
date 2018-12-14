@@ -1,0 +1,611 @@
+.navigation {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    height: 80px;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+}
+.navigation .navigation-bar {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.navigation-bar .logo {
+    float: left;
+    height: 39px;
+    width: 180px;
+    margin-top: 20.5px;
+    text-indent: -9999em;
+    background: url("../images/index/Logo-h.png") no-repeat;
+}
+.bar-items {
+    float: right;
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
+}
+.bar-items .item {
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    margin-right: 25px;
+    line-height: 30px;
+}
+.bar-items .item:hover {
+    border-bottom: 2px solid #2c2c2c;
+}
+.bar-items .item  a {
+    font-size: 16px;
+    color: #393939;
+}
+.bar-items .item-product {
+    border-bottom: 2px solid #2c2c2c;
+}
+.bar-items .item-l {
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    margin-top: 24px;
+    text-align: right;
+    float: right;
+    color: #13609d;
+}
+.bar-items .item-l span {
+    cursor: pointer;
+}
+.bar-items .item-l .en {
+    margin-right: 5px;
+}
+/* 产品 */
+.product-center-header {
+    height: 400px;
+    max-width: 1920px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.product-center-header .header-banner {
+    height: 100%;
+    width: 100%;
+    background: url("../images/products/banner.jpg") no-repeat center;
+}
+.product-center-main {
+    height: auto;
+    width: 100%;
+}
+/* 黎明之光 */
+.main-DayBreak {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: url("../images/products/pic1-back.jpg") no-repeat center;
+}
+.main-DayBreak .day-break {
+    height: 616px;
+    width: 100%;
+    clear: both;
+}
+.main-DayBreak .day-break>div {
+    float: left;
+}
+.main-DayBreak .day-break .break-left {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    border: 1px solid transparent;
+}
+.day-break .break-left .left-date {
+    height: 173px;
+    width: 160px;
+    margin-top: 82px;
+    background: url("../images/products/1.png") no-repeat;
+}
+.day-break .break-left>div {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin-left: 140px;
+}
+.day-break .break-left .left-title {  
+    margin-top: 32px;
+    font-size: 30px;
+    color: #070d1a;
+}
+.day-break .break-left .left-des {
+    font-size: 16px;
+    color: #070d1a;
+    margin-top: 26px;
+    line-height: 32px;
+}
+.day-break .break-left .left-btn {
+    display: block;
+    height: 34px;
+    width: 102px;
+    margin-top: 36px;
+    cursor: pointer;
+    background: url("../images/products/click.png") no-repeat center;
+}
+.main-DayBreak .day-break .break-right {
+    position: relative;
+    width: 75%;
+    height: 100%;
+}
+.day-break .break-right .right-figure {
+    position: absolute;
+    top: 948px;
+    left: 25px;
+    height: 801px;
+    width: 878px;
+    z-index: 3;
+    opacity: 0;
+    background: url("../images/products/pic1.png") no-repeat left bottom;
+}
+/* 十万个冷笑话 */
+.main-TenCold {
+    position: relative;
+    z-index: 5;
+    height: auto;
+    width: 100%;
+    background: url("../images/products/pic2-back.jpg") no-repeat center top;
+}
+.ten-cold {
+    clear: both;
+    height: 550px;
+    width: 100%;
+}
+.ten-cold>div {
+    float: left;
+}
+.ten-cold .cold-left {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.ten-cold .cold-left .left-figure {
+    position: absolute;
+    top: 910px;
+    left: 0px;
+    height: 658px;
+    width: 468px;
+    opacity: 0;
+    background: url("../images/products/pic2.png") no-repeat;
+}
+.ten-cold .cold-right {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.ten-cold .cold-right>div {
+    position: absolute;
+    left: 48px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.cold-right .right-date {
+    margin-top: 72px;
+    height: 173px;
+    width: 192px;
+    background: url("../images/products/2.png") no-repeat;
+}
+.cold-right .right-title {
+    font-size: 30px;
+    color: white;
+    margin-top: 32px;
+}
+.cold-right .right-des {
+    margin-top: 26px;
+    font-size: 16px;
+    color: white;
+    line-height: 32px;
+}
+.cold-right .right-btn {
+    display: block;
+    margin-top: 34px;
+    height: 34px;
+    width: 102px;
+    cursor: pointer;
+    background: url("../images/products/click.png") no-repeat center;
+}   
+
+/*MT */
+.main-MT {
+    position: relative;
+    z-index: 6;
+    height: auto;
+    width: 100%;
+    background: url("../images/products/pic3-back.jpg") no-repeat center;
+}
+.main-MT .mt {
+    clear: both;
+    height: 634px;
+    width: 100%;
+}
+.main-MT .mt>div {
+    float: left;
+}
+.mt .mt-left {
+    position: relative;
+    height: 100%;
+    width: 35%;
+}
+.mt .mt-left>div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    left: 140px;
+    top: 0px;
+}
+.mt .mt-left .left-date {
+    margin-top: 92px;
+    height: 173px;
+    width: 192px;
+    background: url("../images/products/3.png") no-repeat;
+}
+.mt .mt-left .left-title {
+    font-size: 32px;
+    color: #0b0e1c;
+    margin-top: 25px;
+}
+.mt .mt-left .left-des {
+    font-size: 16px;
+    color: #0b0e1c;
+    line-height: 32px;
+    margin-top: 26px;
+}
+.mt .mt-left .left-btn {
+    display: block;
+    margin-top: 34px;
+    height: 34px;
+    width: 102px;
+    background: url("../images/products/click.png") no-repeat center;
+}
+
+.mt .mt-right {
+    position: relative;
+    height: 100%;
+    width: 65%;
+    padding-top: 22px;
+}
+.mt .mt-right .right-figure {
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    height: 502px;
+    width: 618px;
+    opacity: 0;
+    background: url("../images/products/pic3.png") no-repeat;
+}
+
+/* 网格部分 */
+.main-block {
+    position: relative;
+    z-index: 7;
+    height: 2200px;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.main-block .block-one,.main-block .block-two,.main-block .block-three,.main-block .block-four {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+}
+.main-block .block-one >div,.main-block .block-two >div,.main-block .block-three >div,.main-block .block-four >div {
+    float: left;
+}
+.block-one .one-left {
+    height: 100%;
+    width: 50%;
+    background: url("../images/products/pic4.jpg") no-repeat;
+}
+.block-one .one-right{
+    height: 100%;
+    width: 50%;
+    padding: 56px 0 0 248px;
+    background: url("../images/products/pic4-back-r.jpg");
+}
+.block-one .one-right .right-date {
+    height: 173px;
+    width: 192px;
+    background: url("../images/products/4.png") no-repeat;
+}
+.block-one .one-right .right-title {
+    font-size: 30px;
+    color: #0a0d1b;
+    margin-top: 32px;
+}
+.block-one .one-right .right-des {
+    font-size: 16px;
+    color: #0a0d1b;
+    margin-top: 26px;
+    line-height: 28px;
+}
+.block-one .one-right .right-btn {
+    display: block;
+    height: 34px;
+    width: 102px;
+    cursor: pointer;
+    background: url("../images/products/click.png") no-repeat center;
+    margin-top: 34px;
+}
+
+/* 十万冷 */
+
+.block-two .two-left{
+    height: 100%;
+    width: 50%;
+    background: url("../images/products/pic5-back-r.jpg") no-repeat;
+    padding: 90px 0 0 382px;
+}
+.block-two .two-left .left-date {
+    height: 173px;
+    width: 192px;
+    background: url("../images/products/5.png") no-repeat;
+}
+.block-two .two-left .left-title {
+    font-size: 30px;
+    color: #0a0d1b;
+    margin-top: 32px;
+}
+.block-two .two-left .left-des {
+    font-size: 16px;
+    color: #0a0d1b;
+    margin-top: 26px;
+    line-height: 28px;
+}
+.block-two .two-left .left-btn {
+    display: block;
+    margin-top: 30px;
+    height: 34px;
+    width: 102px;
+    cursor: pointer;
+    background: url("../images/products/click.png") no-repeat center;
+}
+.block-two .two-right{
+    height: 100%;
+    width: 50%;
+    background: url("../images/products/pic5.jpg") no-repeat;
+}
+/* 神之刃 */
+.block-three .three-left{
+    height: 100%;
+    width: 50%;
+    background: url("../images/products/pic6.jpg") no-repeat;
+}
+.block-three .three-right{
+    height: 100%;
+    width: 50%;
+    background: url("../images/products/pic6-back-r.jpg") no-repeat;
+    padding: 66px 0 0 256px;
+}
+.block-three .three-right .right-date {
+    height: 173px;
+    width: 192px;
+    background: url("../images/products/6.png") no-repeat;
+}
+.block-three .three-right .right-title {
+    font-size: 30px;
+    color: white;
+    margin-top: 32px;
+}
+.block-three .three-right .right-des {
+    font-size: 16px;
+    color: white;
+    line-height: 28px;
+    margin-top: 26px;
+}
+.block-three .three-right .right-btn {
+    display: block;
+    height: 34px;
+    width: 102px;
+    margin-top: 34px;
+    cursor: pointer;
+    background: url("../images/products/click.png") no-repeat center;
+}
+
+/* 07 */
+.block-four .four-left{
+    height: 100%;
+    width: 50%;
+    background: url("../images/products/pic7-back-r.jpg") no-repeat;
+    padding: 76px 0 0 382px;
+}
+.block-four .four-left .left-date {
+    height: 173px;
+    width: 192px;
+    background: url("../images/products/7.png") no-repeat;
+}
+.block-four .four-left .left-title {
+    margin-top: 32px;
+    font-size: 30px;
+    color: #0a0d1b;
+}
+.block-four .four-left .left-des {
+    font-size: 16px;
+    color: #0a0d1b;
+    margin-top: 26px;
+    line-height: 28px;
+}
+.block-four .four-left .left-btn {
+    display: block;
+    height: 34px;
+    width: 102px;
+    cursor: pointer;
+    background: url("../images/products/click.png") no-repeat center;
+    margin-top: 34px;
+}
+.block-four .four-right{
+    height: 100%;
+    width: 50%;
+    background: url("../images/products/pic7.jpg") no-repeat center;
+}
+.product-center-footer {
+    height: 689px;
+    width: 100%;
+}
+.footer-contact-us {
+    height: 100%;
+    width: 100%;
+    background: #313131;
+}
+
+/* 底部 */
+.product-footer {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: url("../images/index/footer.png") no-repeat center top;
+} 
+.product-footer .us-aside {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    height: 288px;
+    width: 213px;
+    background: url("../images/index/title-contact.png") no-repeat;
+}
+.product-footer .us-content {
+    position: relative;
+    height: 455px;
+    width: 100%;
+}
+.product-footer .us-content .content-contact {
+    position: absolute;
+    top: 90px;
+    height: 277px;
+    width: 690px;
+    padding: 20px 0 0 56px;
+    background: #1290ee;
+    z-index: 3;
+}
+.us-content .address-map {
+    position: absolute;
+    top: -180px;
+    left: 57px;
+    height: 300px;
+    width: 560px;
+    background: url("../images/index/map.png") no-repeat center;
+    z-index: 10;
+    display: none;
+}
+.us-content .content-contact>div {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.content-contact .contact-address .contact-icon {
+    background: url("../images/index/address.png") no-repeat;
+}
+.content-contact .contact-phone .contact-icon {
+    background: url("../images/index/phone.png") no-repeat;
+}
+.content-contact .contact-email .contact-icon {
+    background: url("../images/index/email.png") no-repeat;
+}
+.content-contact .contact-icon {
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    width: 35px;
+}
+.icon-mask {
+    position: absolute;
+    height: 45px;
+    width: 70%;
+    left: -10px;
+    top: 15px;
+}
+.content-contact .contact-msg {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    margin-left: 8px;
+}
+.content-contact .contact-msg a {
+    color: white;
+    font-family: 'Arial';
+}
+.contact-address,.contact-phone,.contact-email{
+    position: relative;
+    padding-top: 20px;
+}
+.us-content .content-msg {
+    position: absolute;
+    top: 47px;
+    right: 10px;   
+    border: 1px solid white;
+    height: 348px;
+    width: 600px;
+    background: url("../images/index/map.png") no-repeat center;
+}
+.us-content .content-msg a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.us-company {
+    height: auto;
+    width: 100%;
+    background: white;   
+}
+.company-view {
+    height: 100px;
+    width: 100%;
+    padding: 0 300px;
+    overflow: hidden;
+}
+.us-company .company-logo {
+    float: left;
+    height: 60px;
+    width: 50px;
+    margin-top: 20px;
+}
+.us-company .company-logo img {
+    width: 100%;
+}
+.us-company .company-msg {
+    float: left;
+    width: 521px;
+    height: 100%;
+}
+.company-msg  .msg-top {
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 25px;
+}
+.company-msg  .msg-top>div {
+    float: left;
+    height: 30px;
+    width: auto;
+    padding-left: 40px;
+}
+.company-msg  .msg-top>div span {
+    margin: 0 12px;
+}
+.company-msg  .msg-top>div a {
+    color: #383838;
+    font-size: 16px;
+}
+.msg-bottom {
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.msg-bottom p {
+    color: #414141;
+    font-size: 14px;
+}
+.msg-bottom p span {
+    margin: 0 5px;
+    color: black;
+}

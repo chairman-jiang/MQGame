@@ -1,0 +1,613 @@
+.navigation {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  height: 80px;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 0px 10px gray;
+}
+.navigation .navigation-bar {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.navigation-bar .logo {
+  float: left;
+  height: 39px;
+  width: 180px;
+  margin-top: 20.5px;
+  text-indent: -9999em;
+  background: url("../images/index/Logo-h.png") no-repeat;
+}
+.bar-items {
+  float: right;
+  height: 100%;
+  width: 70%;
+  overflow: hidden;
+}
+.bar-items .item {
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  text-align: center;
+  float: right;
+  margin-right: 25px;
+  line-height: 30px;
+}
+.bar-items .item:hover {
+  border-bottom: 2px solid #2c2c2c;
+}
+.bar-items .item  a {
+  font-size: 16px;
+  color: #393939;
+}
+.bar-items .item-about {
+  border-bottom: 2px solid #2c2c2c;
+}
+.bar-items .item-l {
+  font-size: 16px;
+  width: 120px;
+  height: 40px;
+  margin-top: 24px;
+  text-align: right;
+  float: right;
+  color: #13609d;
+}
+.bar-items .item-l span {
+  cursor: pointer;
+}
+.bar-items .item-l .en {
+  margin-right: 5px;
+}
+/* about-me */
+.about-mq-header {
+  position: relative;
+  height: 400px;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0 auto;
+  background: url("../images/about/banner.jpg") no-repeat center;
+}
+.about-mq-header .header-introduction {
+ position: absolute;
+ left: 68px;
+ top: 206px;
+ width: 1225px;
+ height: 310px;
+ padding: 0 60px;
+ background: rgba(21, 139, 224, 0.7);
+ filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#b2158BE0,endColorStr=i#b2158BE0);
+ z-index: 2;
+}
+.header-introduction .i-title {
+  font-size: 60px;
+  color: white;
+  margin-top: -45px;
+  margin-bottom: 25px;
+}
+.header-introduction .i-content p{
+  text-indent: 2em;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+/* 主体 */
+.line-left,.line-right {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  clear: both;
+}
+.line-left>div,.line-right>div {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.mask {
+  height: 100%;
+  width: 100%;
+}
+.about-mq-main {
+  height: auto;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1020px;
+  margin: 0 auto;
+}
+.about-mq-main .main-date-one {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+.main-date-one .date-one {
+  height: auto;
+  width: 100%;
+  padding-bottom: 165px;
+}
+.main-date-one .date-one .one-top {
+  position: relative;
+  height: 565px;
+  width: 100%;
+}
+.main-date-one .line-left {
+  top: 564px;
+  left: 0px;
+}
+.main-date-one .line-left .left-first {
+  background: #297aaa;
+}
+.main-date-one .line-right {
+  bottom: 165px;
+  left: 0;
+}
+.main-date-one .line-right .right-last {
+  background: #297aaa;
+}
+.one-top .top-date {
+  position: absolute;
+  top: 265px;
+  left: 0px;
+  height: 200px;
+  width: 280px;
+  background: url("../images/about/17.7.png") no-repeat;
+}
+.one-top .top-des {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  height: 452px;
+  width: 739px;
+  background: url("../images/about/ten-cold-m.jpg") no-repeat;
+  z-index: 1;
+}
+.one-top .top-des .mask{
+  padding: 155px 0 0 190px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
+  background: rgba(18, 144, 238, 0.9);
+  filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#e51290EE,endColorStr=i#e51290EE);
+}
+.main-date-one .date-one .one-bottom {
+  position: relative;
+  height: 515px;
+  width: 100%;
+}
+.one-bottom .bottom-des {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  height: 454px;
+  width: 739px;
+  background: url("../images/about/MT.jpg") no-repeat;
+  z-index: 1;
+}
+.one-bottom .bottom-des .mask {
+  padding: 183px 0 0 160px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  line-height: 50px;
+  background: rgba(71, 71, 71, 0.9);
+  filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#e5474747,endColorStr=i#e5474747);
+}
+.one-bottom .bottom-date {
+  position: absolute;
+  bottom: 110px;
+  right: 0px;
+  height: 200px;
+  width: 280px;
+  background: url("../images/about/17.5.png") no-repeat;
+}
+.about-mq-main .main-date-two {
+  height: 468px;
+  width: 100%;
+  overflow: hidden;
+  background: rgb(233, 233, 144);
+}
+.about-mq-main .main-date-two >div {
+  float: left;
+}
+.about-mq-main .main-date-two .two-left {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  background: url("../images/about/fengshen.jpg") no-repeat center right;
+}
+.about-mq-main .main-date-two .two-left .mask {
+  position: relative;
+  background: rgba(18, 144, 238, 0.9);
+  filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#e51290EE,endColorStr=i#e51290EE);
+}
+.about-mq-main .main-date-two .two-right {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  background: #313131;
+}
+.main-date-two .two-left .left-date {
+  position: absolute;
+  top: 115px;
+  right: 96px;
+  height: 200px;
+  width: 280px;
+  background: url("../images/about/16.10.png") no-repeat;
+}
+.main-date-two .two-right .right-des {
+  position: absolute;
+  left: 75px;
+  top: 135px;
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+}
+/* 日期3 */
+.about-mq-main .main-date-three {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+.main-date-three .date-three {
+  height: auto;
+  width: 100%;
+  padding-bottom: 130px;
+}
+.main-date-three .three-top {
+  position: relative;
+  height: 450px;
+  width: 100%;
+}
+.main-date-three .line-left {
+  bottom: 130px;
+  left: 0px;
+}
+.main-date-three .line-left .left-first {
+  background: #297aaa;
+}
+.main-date-three .line-right {
+  top: 449px;
+  left: 0;
+}
+.main-date-three .line-right .right-last {
+  background: #297aaa;
+}
+.three-top .top-des {
+  position: absolute;
+  left: 0px;
+  top: 52px;
+  width: 740px;
+  height: 455px;
+  background: url("../images/about/day-break-m.jpg") no-repeat;
+  z-index: 1;
+}
+.three-top .top-des .mask {
+  padding: 130px 25px 30px 90px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
+  background: rgba(71, 71, 71, 0.9);
+  filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#e5474747,endColorStr=i#e5474747);
+}
+.three-top .top-date {
+  position: absolute;
+  top: 152px;
+  right: 0px;
+  height: 200px;
+  width: 280px;
+  background: url("../images/about/16.09.png") no-repeat;
+}
+.main-date-three .three-bottom {
+  position: relative;
+  height: 510px;
+  width: 100%;
+}
+.three-bottom .bottom-date {
+  position: absolute;
+  left: 0px;
+  bottom: 80px;
+  height: 200px;
+  width: 280px;
+  background: url("../images/about/15.10.png") no-repeat;
+}   
+.three-bottom .bottom-des {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 113px;
+  height: 455px;
+  width: 742px;
+  background: url("../images/about/tianshen.png") no-repeat;
+}
+.three-bottom .bottom-des .mask {
+  text-align: center;
+  line-height: 455px;
+  font-size: 20px;
+  color: white;
+  background: rgba(18, 144, 238, 0.9);
+  filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#e51290EE,endColorStr=i#e51290EE);
+}
+.about-mq-main .main-date-four {
+  height: 468px;
+  width: 100%;
+}
+.about-mq-main .main-date-four >div {
+  float: left;
+}
+.about-mq-main .main-date-four .four-left {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  background: #313131;
+}
+.four-left .left-des {
+  position: absolute;
+  right: 80px;
+  top: 163px;
+  font-size: 20px;
+  color: white;
+  line-height: 50px;
+}
+.about-mq-main .main-date-four .four-right {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  background: url("../images/about/ten-cold.jpg") no-repeat;
+}
+.about-mq-main .main-date-four .four-right .mask {
+  position: relative;
+  background: rgba(71, 71, 71, 0.9);
+  filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#e5474747,endColorStr=i#e5474747);
+}
+.four-right .right-date {
+  position: absolute;
+  left: 96px;
+  top: 127px;
+  height: 200px;
+  width: 280px;
+  background: url("../images/about/15.1.png") no-repeat;
+}
+.about-mq-main .main-date-five {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+.main-date-five .date-five {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding-bottom: 237px;
+}
+.main-date-five .line-left {
+  top: 494px;
+  left: 0px;
+}
+.main-date-five .line-left .left-first {
+  background: #297aaa;
+}
+.main-date-five .line-right {
+  bottom: 237px;
+  left: 0;
+}
+.main-date-five .line-right .right-last {
+  background: #297aaa;
+}
+.date-five .five-top {
+  position: relative;
+  height: 495px;
+  width: 100%;
+}
+.date-five .five-top .top-date {
+  position: absolute;
+  left: 0px;
+  top: 210px;
+  height: 200px;
+  width: 280px;
+  background: url("../images/about/13.12.png") no-repeat;
+}
+.date-five .five-top .top-des {
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  height: 455px;
+  width: 741px;
+  background: url("../images/about/god-blade.jpg") no-repeat;
+  z-index: 1;
+}
+.date-five .five-top .top-des .mask {
+  padding: 135px 0 0 160px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
+  background: rgba(18, 144, 238, 0.9);
+  filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#e51290EE,endColorStr=i#e51290EE);
+}
+.date-five .five-bottom {
+  position: relative;
+  height: 530px;
+  width: 100%;
+}
+.five-bottom .bottom-des {
+  position: absolute;
+  left: 0px;
+  top: 130px;
+  width: 743px;
+  height: 454px;
+  background: url("../images/about/day-break.jpg") no-repeat;
+  z-index: 1;
+}
+.five-bottom .bottom-des .mask {
+  padding: 110px 30px 30px 100px;
+  color: white;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  background: rgba(71, 71, 71, 0.9);
+  filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#e5474747,endColorStr=i#e5474747);
+}
+
+.five-bottom .bottom-date {
+  position: absolute;
+  height: 200px;
+  width: 280px;
+  right: 0px;
+  bottom: 120px;
+  background: url("../images/about/12.8.png") no-repeat;
+}
+
+/* 底部 */
+.about-mq-footer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background: url("../images/index/footer.png") no-repeat center top;
+} 
+.about-mq-footer .us-aside {
+  position: absolute;
+  left: 0;
+  top: 90px;
+  height: 288px;
+  width: 213px;
+  background: url("../images/index/title-contact.png") no-repeat;
+}
+.about-mq-footer .us-content {
+  position: relative;
+  height: 455px;
+  width: 100%;
+}
+.about-mq-footer .us-content .content-contact {
+  position: absolute;
+  top: 90px;
+  height: 277px;
+  width: 690px;
+  padding: 20px 0 0 56px;
+  background: #1290ee;
+  z-index: 3;
+}
+.us-content .address-map {
+  position: absolute;
+  top: -180px;
+  left: 57px;
+  height: 300px;
+  width: 560px;
+  background: url("../images/index/map.png") no-repeat center;
+  z-index: 10;
+  display: none;
+}
+.us-content .content-contact>div {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.content-contact .contact-address .contact-icon {
+  background: url("../images/index/address.png") no-repeat;
+}
+.content-contact .contact-phone .contact-icon {
+  background: url("../images/index/phone.png") no-repeat;
+}
+.content-contact .contact-email .contact-icon {
+  background: url("../images/index/email.png") no-repeat;
+}
+.content-contact .contact-icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 35px;
+  width: 35px;
+}
+.icon-mask {
+  position: absolute;
+  height: 45px;
+  width: 70%;
+  left: -10px;
+  top: 15px;
+}
+.content-contact .contact-msg {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  margin-left: 8px;
+}
+.content-contact .contact-msg a {
+  color: white;
+  font-family: 'Arial';
+}
+.contact-address,.contact-phone,.contact-email{
+  position: relative;
+  padding-top: 20px;
+}
+.us-content .content-msg {
+  position: absolute;
+  top: 47px;
+  right: 10px;   
+  border: 1px solid white;
+  height: 348px;
+  width: 600px;
+  background: url("../images/index/map.png") no-repeat center;
+}
+.us-content .content-msg a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.us-company {
+  height: auto;
+  width: 100%;
+  background: white;   
+}
+.company-view {
+  height: 100px;
+  width: 100%;
+  padding: 0 300px;
+  overflow: hidden;
+}
+.us-company .company-logo {
+  float: left;
+  height: 60px;
+  width: 50px;
+  margin-top: 20px;
+}
+.us-company .company-logo img {
+  width: 100%;
+}
+.us-company .company-msg {
+  float: left;
+  width: 521px;
+  height: 100%;
+}
+.company-msg  .msg-top {
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 25px;
+}
+.company-msg  .msg-top>div {
+  float: left;
+  height: 30px;
+  width: auto;
+  padding-left: 40px;
+}
+.company-msg  .msg-top>div span {
+  margin: 0 12px;
+}
+.company-msg  .msg-top>div a {
+  color: #383838;
+  font-size: 16px;
+}
+.msg-bottom {
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.msg-bottom p {
+  color: #414141;
+  font-size: 14px;
+}
+.msg-bottom p span {
+  margin: 0 5px;
+  color: black;
+}

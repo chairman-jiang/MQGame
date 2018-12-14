@@ -1,0 +1,329 @@
+
+.navigation {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  height: 80px;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 0px 10px gray;
+}
+.navigation .navigation-bar {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.navigation-bar .logo {
+  float: left;
+  height: 39px;
+  width: 180px;
+  margin-top: 20.5px;
+  text-indent: -9999em;
+  background: url("../images/index/Logo-h.png") no-repeat;
+}
+.bar-items {
+  float: right;
+  height: 100%;
+  width: 70%;
+  overflow: hidden;
+}
+.bar-items .item {
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  text-align: center;
+  float: right;
+  margin-right: 25px;
+  line-height: 30px;
+}
+.bar-items .item:hover {
+  border-bottom: 2px solid #2c2c2c;
+}
+.bar-items .item  a {
+  font-size: 16px;
+  color: #393939;
+}
+.bar-items .item-join {
+  border-bottom: 2px solid #2c2c2c;
+}
+.bar-items .item-l {
+  font-size: 16px;
+  width: 120px;
+  height: 40px;
+  margin-top: 24px;
+  text-align: right;
+  float: right;
+  color: #13609d;
+}
+.bar-items .item-l span {
+  cursor: pointer;
+}
+.bar-items .item-l .en {
+  margin-right: 5px;
+}
+/* 招聘 */
+.recruitment-header {
+  position: relative;
+  height: 400px;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+.header-banner {
+  height: 100%;
+  width: 100%;
+  background: url("../images/join/pic1.jpg") no-repeat center;
+}
+.recruitment-main {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.recruitment-main .main-view {
+  width: 100%;
+  min-width: 1000px;
+  height: auto;
+  padding-top: 90px;
+  padding-bottom: 87px;
+  overflow: hidden;
+}
+.main-view>div {
+  float: left;
+}
+.view-menu {
+  height: 282px;
+  width: 115px;
+  border-left: 6px solid #1191ed;
+  padding-left: 10px;
+}
+.view-menu>div {
+  height: 47px;
+  width: 100%;
+  line-height: 47px;
+  color: #313131;
+}
+.view-menu>div span {
+  cursor: pointer;
+}
+.view-menu>div span:hover {
+  color: #1290ef;
+}
+.view-content {
+  min-height: 800px;
+  height: 100%;
+  width: 1085px;
+  padding-left: 175px;
+}
+.content-title {
+  height: 90px;
+  width: 100%;
+}
+.content-title>div {    
+  font-size: 26px;
+  color: #2e3d4b;
+}
+.content-title .title-phone {
+  padding-top: 18px;
+}
+.view-content .content-text {
+  height: auto;
+  width: 100%;
+}
+.content-text .company {
+  margin-top: 40px;
+  display: none;
+}
+.content-text .company p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #313131;
+}
+.view-content .content-text ul {
+  padding-top: 40px;
+  width: 100%;
+  height: auto;
+}
+.content-text ul li {
+  min-height: 45px;
+  padding: 10px 0px;
+  width: 100%;
+  border-bottom: 1px solid #cacaca;
+  color: #323d4a;
+  font-size: 16px;
+  cursor: pointer;
+}
+.content-text ul li>div {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: none;
+  padding-left: 20px;
+}
+.content-text ul li>div h3 {
+  display: none;
+}
+.content-text ul li>div>div .ob {
+  font-size: 14px;
+  color: #1c76a5;
+  margin-bottom: 15px;
+}
+.content-text ul li>div>div p {
+  margin-bottom: 10px;
+  color: #313131;
+  font-size: 14px;
+}
+
+
+
+/* 底部 */
+.recruitment-footer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background: url("../images/index/footer.png") no-repeat center top;
+} 
+.recruitment-footer .us-aside {
+  position: absolute;
+  left: 0;
+  top: 90px;
+  height: 288px;
+  width: 213px;
+  background: url("../images/index/title-contact.png") no-repeat;
+}
+.recruitment-footer .us-content {
+  position: relative;
+  height: 455px;
+  width: 100%;
+}
+.recruitment-footer .us-content .content-contact {
+  position: absolute;
+  top: 90px;
+  height: 277px;
+  width: 690px;
+  padding: 20px 0 0 56px;
+  background: #1290ee;
+  z-index: 3;
+}
+.us-content .address-map {
+  position: absolute;
+  top: -180px;
+  left: 57px;
+  height: 300px;
+  width: 560px;
+  background: url("../images/index/map.png") no-repeat center;
+  z-index: 10;
+  display: none;
+}
+.us-content .content-contact>div {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.content-contact .contact-address .contact-icon {
+  background: url("../images/index/address.png") no-repeat;
+}
+.content-contact .contact-phone .contact-icon {
+  background: url("../images/index/phone.png") no-repeat;
+}
+.content-contact .contact-email .contact-icon {
+  background: url("../images/index/email.png") no-repeat;
+}
+.content-contact .contact-icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 35px;
+  width: 35px;
+}
+.icon-mask {
+  position: absolute;
+  height: 45px;
+  width: 70%;
+  left: -10px;
+  top: 15px;
+}
+.content-contact .contact-msg {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  margin-left: 8px;
+}
+.content-contact .contact-msg a {
+  color: white;
+  font-family: 'Arial';
+}
+.contact-address,.contact-phone,.contact-email{
+  position: relative;
+  padding-top: 20px;
+}
+.us-content .content-msg {
+  position: absolute;
+  top: 47px;
+  right: 10px;   
+  border: 1px solid white;
+  height: 348px;
+  width: 600px;
+  background: url("../images/index/map.png") no-repeat center;
+}
+.us-content .content-msg a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.us-company {
+  height: auto;
+  width: 100%;
+  background: white;   
+}
+.company-view {
+  height: 100px;
+  width: 100%;
+  padding: 0 300px;
+  overflow: hidden;
+}
+.us-company .company-logo {
+  float: left;
+  height: 60px;
+  width: 50px;
+  margin-top: 20px;
+}
+.us-company .company-logo img {
+  width: 100%;
+}
+.us-company .company-msg {
+  float: left;
+  width: 521px;
+  height: 100%;
+}
+.company-msg  .msg-top {
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 25px;
+}
+.company-msg  .msg-top>div {
+  float: left;
+  height: 30px;
+  width: auto;
+  padding-left: 40px;
+}
+.company-msg  .msg-top>div span {
+  margin: 0 12px;
+}
+.company-msg  .msg-top>div a {
+  color: #383838;
+  font-size: 16px;
+}
+.msg-bottom {
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.msg-bottom p {
+  color: #414141;
+  font-size: 14px;
+}
+.msg-bottom p span {
+  margin: 0 5px;
+  color: black;
+}
